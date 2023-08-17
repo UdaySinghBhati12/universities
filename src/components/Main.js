@@ -12,12 +12,12 @@ export default function Main({universities}){
                  
                     {universities.map( (university, index) => ( 
                         <div key={index} >
-                            <p className='grid-item'>NAME OF COLLAGE : {university.name}</p>
-                            <p>COUNTRY : {university.country}</p>
-                            <p>DOMAINS : {university.domains}</p>
-                            <p>CODE : {university["alpha_two_code"]}</p>
-                            <p>STATE : {university["state-province"]}</p>
-                            <p>WEB_PAGE : {university["web_pages"]}</p>
+                            <p >Name of Collage : {university.name}</p>
+                            <p>Country : {university.country}</p>
+                            <p>Domain : {university.domains}</p>
+                            <p>Code : {university["alpha_two_code"]}</p>
+                            <p>State : {university["state-province"]}</p>
+                            <p>Web page : {university["web_pages"]}</p>
                             
                             </div>
                         ))
