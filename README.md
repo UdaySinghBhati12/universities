@@ -1,6 +1,7 @@
-This project mainly fetches data from api , stores data
-  by hook up (usesState) and presents data
-   in components using props.
+This project mainly fetches data from  free api
+("http://universities.hipolabs.com/search?country=United+States") 
+, stores data using hook up (usesState) 
+and presents data in components using props.
 
 Technologies 
 
