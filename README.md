@@ -1,6 +1,6 @@
 This project mainly fetches data from api , stores data
   by hook up (usesState) and presents data
-   in components using pro.
+   in components using props.
 
 Technologies 
 
